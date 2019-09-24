@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { PagesModule }from './pages/pages.module'
+import { PagesModule } from './pages/pages.module';
 import { TemplateModule } from './template/template.module';
 
 @NgModule({
@@ -12,7 +12,7 @@ import { TemplateModule } from './template/template.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, 
+    AppRoutingModule,
     PagesModule,
     TemplateModule
   ],
